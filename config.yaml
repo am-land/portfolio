@@ -1,0 +1,78 @@
+baseURL: "https://example.org/"
+languageCode: "en-us"
+title: "Abby Morleand"
+theme: "PaperMod"
+
+params:
+    profileMode: 
+        enabled: true
+        title: "Abby Moreland" # optional default will be site title
+        subtitle: "Technical writer in software"
+        imageUrl: "img/am.png" # optional
+        imageTitle: "am logo" # optional
+        imageWidth: 200 # custom size
+        imageHeight: 200 # custom size  
+        buttons:
+          - name: About
+            url: "/about"
+          - name: Portfolio
+            url: "/portfolio"
+          - name: Blog
+            url: "/blog"
+
+    socialIcons: # optional
+          - name: "twitter"
+            url: "https://twitter.com/"
+          - name: "linkedin"
+            url: "https://www.linkedin.com/in/abby-moreland/"
+          - name: "github"
+            url: "https://github.com/"
+          - name: "rss"
+            url: "<link2>"
+
+    assets:
+        favicon: "/img/favicon.ico"
+        favicon16x16:  "/img/favicon-16x16.png"
+        favicon32x32:  "/img/favicon-32x32.png"
+        apple_touch_icon:  "/img/apple-touch-icon.png"
+        safari_pinned_tab:  "/img/safari-pinned-tab.svg"
+
+ #   cover:
+ #     thumbnail: true
+ #     thumbnailInList: true
+
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
+        
+menu:
+  main:
+ # - identifier: home
+ #   name: Home
+ #   pre: <i class='fa fa-heart'></i>
+ #   url: /
+ #   weight: -110
+ # - identifier: archive
+ #   name: Archive
+ #   pre: <i class='fa fa-heart'></i>
+ #   url: /archive
+  - identifier: portfolio
+    name: Portfolio
+    pre: <i class='fa fa-heart'></i>
+    url: /portfolio
+    weight: -110
+  - identifier: blog
+    name: Blog
+    pre: <i class='fa fa-heart'></i>
+    url: /blog
+  - identifier: categories
+    name: Categories
+    pre: <i class='fa fa-heart'></i>
+    url: /categories
+  - identifier: search
+    name: Search
+    pre: <i class='fa fa-heart'></i>
+    url: /search
