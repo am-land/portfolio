@@ -10,7 +10,7 @@ date: '2022-03-07'
 
 ---
 
-<!-- {{< figure src="keyboard.png" >}} -->
+{{< figure src="keyboard.png" >}}
 
 Here's an in-depth description of the project.
 
