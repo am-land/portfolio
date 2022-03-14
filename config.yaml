@@ -76,3 +76,8 @@ menu:
     name: Search
     pre: <i class='fa fa-heart'></i>
     url: /search
+    weight: 100
+  - identifier: contact
+    name: Contact
+    pre: <i class='fa fa-heart'></i>
+    url: /contact
