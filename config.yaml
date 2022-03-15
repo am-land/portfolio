@@ -68,16 +68,17 @@ menu:
     name: Blog
     pre: <i class='fa fa-heart'></i>
     url: /blog
+    weight: -100
   - identifier: categories
     name: Categories
     pre: <i class='fa fa-heart'></i>
     url: /categories
+    weight: -90
   - identifier: search
     name: Search
     pre: <i class='fa fa-heart'></i>
     url: /search
-    weight: 100
+    weight: -80
   - identifier: contact
     name: Contact
-    pre: <i class='fa fa-heart'></i>
-    url: /contact
+    url: /contact/
