@@ -19,6 +19,8 @@ params:
             url: "/portfolio"
           - name: Blog
             url: "/blog"
+    defaultTheme: light
+    disableThemeToggle: true
 
     socialIcons: # optional
           - name: "twitter"
@@ -37,6 +39,7 @@ params:
         apple_touch_icon:  "/img/apple-touch-icon.png"
         safari_pinned_tab:  "/img/safari-pinned-tab.svg"
 
+      
  #   cover:
  #     thumbnail: true
  #     thumbnailInList: true
