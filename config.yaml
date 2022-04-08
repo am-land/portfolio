@@ -3,6 +3,10 @@ languageCode: "en-us"
 title: "Abby Moreland"
 theme: "PaperMod"
 
+rssLimit: 10
+author: 
+  name: "Abby Moreland"
+
 params:
     profileMode: 
         enabled: true
@@ -23,14 +27,12 @@ params:
     disableThemeToggle: true
 
     socialIcons: # optional
-          - name: "twitter"
-            url: "https://twitter.com/"
           - name: "linkedin"
             url: "https://www.linkedin.com/in/abby-moreland/"
           - name: "github"
             url: "https://github.com/am-land"
           - name: "rss"
-            url: "<link2>"
+            url: "/rss.xml"
 
     assets:
         favicon: "/img/favicon.ico"
@@ -50,6 +52,12 @@ outputs:
         - HTML
         - RSS
         - JSON # is necessary
+
+outputFormats:
+  RSS:
+    mediatype: "application/rss"
+    baseName: "rss"
+
         
 menu:
   main:
