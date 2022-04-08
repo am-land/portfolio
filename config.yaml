@@ -56,7 +56,7 @@ outputs:
 outputFormats:
   RSS:
     mediatype: "application/rss"
-    baseName: "rss"
+    baseName: "feed"
 
         
 menu:
