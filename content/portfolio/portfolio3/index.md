@@ -1,6 +1,7 @@
 ---
-title: "Project #3"
+title: "The Site You're on Right Now"
 #headless: true
-summary: Summary of this project.
+summary: I created this using the static site generator Hugo.
+draft: true
 ---
-{{< content-strip-left "/portfolio/portfolio3" "Project3" >}}
+{{< content-strip-left "/portfolio/portfolio3" "the-site-youre-on-right-now" >}}

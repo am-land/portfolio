@@ -1,12 +1,14 @@
 ---
 title: Test
 date: 2022-03-07
-# description: This is an example of a configuration guide.
 categories: [ "test" ]
 tags: ["tag1", "tag2", "tag3"]
 summary: Test summary.
 ShowReadingTime: true
+ShowBreadCrumbs: true
 weight: 10
+draft: true
 ---
+Sumary: Here's a summary of this post.
 
 {{< content-strip-left "/blog/test" "test" >}}

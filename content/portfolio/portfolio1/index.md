@@ -11,6 +11,7 @@ cover:
     caption: ""
     relative: false # To use relative path for cover image, used in hugo Page-bundles
     responsiveImages: false
+draft: true
 ---
 
 {{< content-strip-left "/portfolio/portfolio1" "Project1" >}}

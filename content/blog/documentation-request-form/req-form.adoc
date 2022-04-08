@@ -1,0 +1,73 @@
+When I started at my current company, there wasn't an intake request form for documentation requests. Any ad-hoc requests that came from the Product team, we would discuss in a weekly meeting. Other requests, such as doc site maintenance or updates from the Support team, were sent as an email that created a Jira ticket. When I began working with a CI/CD Engineering team, I quickly found out that winging it didn't work. I had no system for assigning story points, didn't know what tasks I could get done in a two-week sprint, and spent a ton of time asking the same questions over and over.
+
+I created this request form as a way to standardize the general information needed for feature documentation requests. It makes my job easier because I know I'm getting the initial information I need. I also found that it filtered out requests that stakeholders couldn't define. Sometimes, the only information I had about a request amounted to a Slack message that said something like, "Can you document X feature?" If you find you're frequently getting doc requests with little information, using something like the form below may help establish that you need information up-front before you can come back with an answer.
+
+> Note: As the tech writer, I don't expect stakeholders to answer everything in this form for all requests. I try to work with them to fill it out, adapting the form to the needs of the specific request. I also take ownership of some items, such as what type of document is needed and where on the doc site it will be located. 
+
+This form references software I use at my job, such as Jira and Figma. Be sure to update that if it's not applicable to you.
+
+== Documentation Request Form
+
+[cols=2]
+|===
+
+2+h|REQUESTOR DETAILS
+s|Developer and/or SME(s):
+|
+
+s|Project lead/Architect:
+|
+
+2+h|DOCUMENTATION DETAILS
+
+s|Document type:
+e|Concept, how-to/task, reference, getting started, troubleshooting, or release notes?
+
+s|Link to draft(s) in progress:
+|
+
+s|Article(s) to update:
+e|<Link(s) to doc site articles that are affected by this change>.
+
+s|Proposed location of new article:
+|
+
+2+h|SOFTWARE SPECIFICATION
+
+s|Link to Jira issue(s):
+|
+
+s|Description of new feature or update:
+e|What does the feature do? How will the user use it? Why should the user care about it?
+
+s|User story:
+e|As a <type of user>, I want to <perform a task> so that I can <achieve a goal>.
+
+s|Acceptance criteria (if not in Jira):
+e|Given <a precondition>
+
+When <some action is taken>
+
+Then <a set of observable outcomes should occur>.
+
+s|Figma design (if a new feature):
+|
+
+s|Happy path: 
+e|What steps does the user take to perform a task?
+
+s|UI changes: 
+e|What areas or screens of the product have changed?
+
+s|Edge cases
+e|Are there any known issues that occur at an extreme operating parameter?
+
+s|Other notes:
+|
+|===
+
+> Here's a https://drive.google.com/file/d/1sYym8Mg3jkty-7279oA9g_rDoM_Yji0L/view?usp=sharing[*PDF version*].
+
+Of course, the pitfall with a one-size-fits-all form like this is that requests come in all sizes. I've had to adapt this for different teams and products. Even then, not all features within the same product behave similarly enough that it makes sense to apply a generic template.
+
+This form is a starting point when you're asked to document something you've never seen (and possibly won't see for a while). If you can get Product, Engineering, or QA to spend a few minutes answering some standard questions about the new feature or update, you'll be in a much better position to start writing.
