@@ -32,7 +32,7 @@ params:
           - name: "github"
             url: "https://github.com/am-land"
           - name: "rss"
-            url: "/rss.xml"
+            url: "/rss"
 
     assets:
         favicon: "/img/favicon.ico"
