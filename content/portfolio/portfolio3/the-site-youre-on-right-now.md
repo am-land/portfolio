@@ -15,7 +15,7 @@ I wanted a website to host my portfolio and blog. To start, I created a [list of
 > - Hosted on: [GitHub](https://github.com/am-land/portfolio)
 > - Deployed via: [Netlify](https://www.netlify.com/)
 
-From start the finish, building my site took me **about a week of evenings**. This included learning the tools, learning how Hugo works, keeping a [process log]({{< ref "how-i-created-my-hugo-site.md#what-i-did-to-facilitate-learning" >}}), and styling my theme. 
+From start the finish, building my site took me **about a week of evenings**. This included learning the tools, learning how Hugo works, keeping a [process log]({{< ref "how-i-created-my-hugo-site.md#what-i-did-to-facilitate-learning" >}}), and customizing my theme. 
 
 ## Tools
 Here's what I used to work on this project:
@@ -31,6 +31,6 @@ Here's what I used to work on this project:
 
 
 ## Read more
-I wrote a detailed guide on the process: [How I Created My Hugo Site]({{< ref "how-i-created-my-hugo-site.md" >}}). This guide is a step-by-step tutorial for beginners, but it also gives you insight into how I figured things out and made decisions. 
+I wrote a detailed guide on the process: [How I Created My Hugo Site]({{< ref "how-i-created-my-hugo-site.md" >}}). This guide is a step-by-step tutorial for beginners, but it also > gives you insight into how I figured things out and made decisions. 
 
-> Check out [What I did to facilitate learning]({{< ref "how-i-created-my-hugo-site.md#what-i-did-to-facilitate-learning" >}}).
+> Be sure to check out [What I did to facilitate learning]({{< ref "how-i-created-my-hugo-site.md#what-i-did-to-facilitate-learning" >}}).

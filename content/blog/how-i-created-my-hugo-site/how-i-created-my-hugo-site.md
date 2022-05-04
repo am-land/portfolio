@@ -1,6 +1,5 @@
 ---
 title: "How I created my Hugo site"
-date: 2022-03-30T15:42:45-06:00
 ShowReadingTime: true
 ShowBreadCrumbs: true
 draft: true
@@ -72,7 +71,7 @@ You’ll also need free accounts for the following:
 - [Netlify](https://www.netlify.com/)
 
 ### Install Hugo
-I installed Hugo on Windows via [Chocolatey](https://chocolatey.org/install) in the terminal. Run PowerShell as an administrator and use the following command:
+I installed Hugo on Windows via [Chocolatey](https://chocolatey.org/install) in the terminal. Run PowerShell as an administrator and run the following command:
 
 ```
 choco install hugo -confirm
@@ -85,7 +84,7 @@ If installed in your root directory, Chocolatey will install Hugo in the followi
 
 You can also install Hugo via [other package management tools](https://gohugo.io/getting-started/installing#quick-install) like Homebrew. Or, you can [manually install it](https://gohugo.io/getting-started/installing#windows).
 
-If you want to verify the version, use:
+If you want to verify the version, run:
 
 ```
 hugo version
@@ -104,6 +103,22 @@ Replace `[name]` with the name of your site.
 
 If you get an error, make sure Hugo is installed correctly and the PATH variable is set.
 
+## Create a Git repository
+Now that you have a local folder, you'll need to create a Git repository (or *repo*). In the Hugo site folder you just created, enter the following commands:
+```
+$ git init
+```
+```
+$ git add .
+```
+```
+$ git commit -m "Initial commit"
+```
+
+There should now be a new folder in the Hugo site folder named `.git`.
+
+> **Tip:** Here’s a [Git reference sheet](https://training.github.com/downloads/github-git-cheat-sheet/). 
+
 ### Add a theme
 There are many [Hugo themes](https://themes.gohugo.io/) to choose from. I recommend choosing a theme that:
 - Includes a demo.
@@ -112,45 +127,47 @@ There are many [Hugo themes](https://themes.gohugo.io/) to choose from. I recomm
 
 If you’re looking to create a documentation site, [Docsy](https://themes.gohugo.io/themes/docsy/) is popular within the Write the Docs community.
 
-Each Hugo theme is a GitHub repository. There are a few ways to add a theme:
+Each Hugo theme is a GitHub repository. Like many SSGs, Hugo uses Git [**submodules**](https://www.atlassian.com/git/tutorials/git-submodule) for managing dependencies. For an alternative method, read the *Note on Hugo modules* below. Or, skip directly to Step 1.
 
-**Method 1:**  
-Use Git to clone the repository into the `themes` folder:
+> **Note on Hugo modules:** 
+> Git submodules are notoriously tricky. I found this Stack Overflow discussion titled ["How do I remove a submodule?"](https://stackoverflow.com/questions/1260748/how-do-i-remove-a-submodule) which was posted 13 years ago and is still being answered today. While they're easy to add, submodules can get difficult if you want to make changes to them (or remove them). I've been thinking about switching  the submodules for my sites over to *Hugo modules*, which from what I can tell, are much easier to manage. I was able to add and delete them to my projects much more efficiently than submodules. Here's the guide I used: [Master Hugo Modules: Managing Themes as Modules](https://www.hugofordevelopers.com/articles/master-hugo-modules-managing-themes-as-modules/).
 
-```
-$ git clone https://github.com/USERNAME/name-of-repo.git
-```
 
-Replace the URL with the URL of the theme repo.
+**Step 1:** Add the theme as a submodule. 
 
-**Method 2:**
-If you’re using Netlify to deploy, you’ll need to add the theme as a [submodule](https://www.atlassian.com/git/tutorials/git-submodule). In the `themes` folder, use:
+In the `themes` folder, run:
 
 ```
 $ git submodule add https://github.com/USERNAME/name-of-repo.git
+$ git submodule update --init --recursive
 ```
 
-Replace the URL with the URL of the theme repo.
+Replace the URL with the URL of the theme repo. 
 
-**Final step:**  
-Update the `config.yaml` file to include the name of the theme:
+
+**Step 2:** Update the `config.toml` file to include the name of the theme:
 
 ```
-theme: “ThemeName”
+theme = 'ThemeName'
 ```
 
-> **Tip:** Here’s a [Git reference sheet](https://training.github.com/downloads/github-git-cheat-sheet/). 
+> **Making changes:** If you want to make changes to the theme later, [fork](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-and-forking-repositories-from-github-desktop) the repo first, then add the forked theme repo as a submodule. The GitHub link in the command above would be your own username and the name of your forked repo. Forking the theme *and* adding it as a submodule seems a bit redundant, but it will allow you to 1) make and deploy changes to the theme and 2) evaluate if any changes the owner makes might cause issues to your site.
 
 ### Serve the site locally
-To serve the site locally, enter this command from your site’s directory:
+To serve the site locally, enter this command in your site’s directory:
 
 ```
 hugo server
 ```
 
+By default, Hugo's web server is available in a browser at [http://localhost:1313/](http://localhost:1313/).
+
+At this stage, you should have a Hugo site running locally with the demo of the theme you chose.
+
 Hugo’s web server watches for changes while it’s running. Whenever you make a change locally, Hugo simultaneously rebuilds and serves the site. Then, LiveReload silently refreshes your browser. To watch the updates as you make them, keep the browser open on a second monitor or on one half of your monitor.
 
 This setup is ideal for beginners because you can instantly see the changes you make. No need to go make a cup of coffee while waiting for your site to build.
+
 
 ## Understanding the Hugo file structure
 Running `hugo new site` creates the following directory structure:
@@ -179,7 +196,7 @@ Hugo has thorough documentation on [content management](https://gohugo.io/conten
 **Front Matter**  
 Front matter is metadata embedded within each “content type” or page. For example, the variables you may want for a blog post include: **title**, **author**, **date**, **categories**, **summary**, and **url**. Hugo has predefined front matter variables, but you can also define your own. If you’re using a theme, be sure to reference your theme’s documentation on variables.
 
-The `type` variable determines the *type* of the content; Hugo will derive this from the directory, but you can override it in your front matter.
+The `type` variable determines the *[type](https://gohugo.io/content-management/types/)* of the content; Hugo will derive this from the directory, but you can override it in your front matter.
 
 **Page Bundles and Page Resources**  
 *Page bundles* are a way of organizing your content within your file structure. With page bundles, you can group page resources---e.g. images, documents, and other pages---in the same folder so it’s easier to create and update pages. To create a page bundle, add an `_index.md` or `index.md` file within the page’s root directory.
@@ -195,16 +212,13 @@ Shortcodes are snippets inside your Markdown files that call templates. Rather t
 ## Host and deploy your site
 
 ### Host your repository on GitHub
-When you’re ready to publish your site, the first step is to create a remote repository (repo) in GitHub for your source code. (You don’t have to use GitHub; in fact, if you’re deploying via Netlify, you can host there too.)
+When you’re ready to publish your site, the first step is to create a remote repository in GitHub for your source code. (You don’t have to use GitHub; in fact, if you’re deploying via Netlify, you can host there too.)
 
 > We won’t be using [GitHub Pages](https://pages.github.com/) in this tutorial, just GitHub itself.
 
 **Step 1:** Follow the steps in [Creating a new repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository) to create a remote repo in GitHub. 
 
-> Tips when creating your repo:
-> - Make the repo public.
-> - You'll likely want to initialize it *without* a README.md file.
-> - You may want to add a license. If you’re unsure about this step, the [Open Source Guide](https://opensource.guide/legal/#which-open-source-license-is-appropriate-for-my-project) is a good place to start.
+> Note: You may want to add a license. If you’re unsure about this step, the [Open Source Guide](https://opensource.guide/legal/#which-open-source-license-is-appropriate-for-my-project) is a good place to start.
 
 **Step 2:** Push your code to the GitHub repo you just created:
 1. Open your GitHub repo in a browser. 
@@ -219,16 +233,10 @@ When you’re ready to publish your site, the first step is to create a remote r
 	$ git push -u origin main
 	
     ```
-    **Note:** `origin` is the `[remote repo name]` and `main` is the `[branch name]`.  
+    **Note:** `origin` is the `[remote repo name]` and `main` is the `[local branch name]`. If you used [`git-init`](https://git-scm.com/docs/git-init#Documentation/git-init.txt---initial-branchltbranch-namegt), your local branch name may be `master`, so you may need to adjust the command above.
+ 
 
 7. Enter `git remote -v` to check if the remote repo was added successfully. 
-
-
-
-> If you added your theme as a submodule, don’t forget to also [fork and clone](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-and-forking-repositories-from-github-desktop) the theme repo. If you don’t do this step, your GitHub site repo will point to the original theme repo and any changes you make to the theme locally won’t get pushed with the rest of your code.
-
-
-
 
 ### Deploy your site on Netlify
 I used [Netlify’s guide](https://www.netlify.com/blog/2016/09/29/a-step-by-step-guide-deploying-on-netlify/) to deploy my site. This guide uses GitHub as the repo source.
@@ -260,6 +268,8 @@ Since you're not creating a pull request that others will review, you likely won
 
 > If you're interested in learning more about managing branches, Microsoft DevOps has a guide: [Adopting a Git branching strategy](https://docs.microsoft.com/en-us/azure/devops/repos/git/git-branching-guidance?view=azure-devops).
 
+## Workflow for updating your site
+To make updating your site easier, I recommend creating a workflow. Your workflow will vary based on your setup, but it may be helpful to reference other docs-as-code guides, such as steps 1-5 of New Relic's [Tech writer workflow](https://docs.newrelic.com/docs/style-guide/writing-docs/writer-workflow/tech-writer-workflow/). Be sure to adjust any specific instructions to fit your own setup.
 
 ## Troubleshooting tips
 No matter how experienced you are, it’s inevitable that you’ll get stuck when learning something new. Whether you get an error, can’t figure something out, or just aren’t sure how to proceed, everyone who works in tech has been there many times.
@@ -276,7 +286,7 @@ Here are some tips when you run into issues:
 
 **Take a break.** When you’re struggling with a problem, go grab a beer and focus on something else for a while. Many people solve problems while doing mundane tasks like showering; for me, I nearly always solve my hardest problems while lying awake at night.
 
-For more, read my post The Developer’s Problem-Solving Mindset.
+[//]: # (For more, read my post The Developer’s Problem-Solving Mindset.)
 
 ## What I did to facilitate learning
 **I contributed to a process log from installation to deployment.**  
