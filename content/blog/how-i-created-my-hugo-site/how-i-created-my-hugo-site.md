@@ -2,7 +2,6 @@
 title: "How I created my Hugo site"
 ShowReadingTime: true
 ShowBreadCrumbs: true
-draft: true
 ---
 > Summary: I wanted to build a fully customizable website without starting from scratch, so I created this site using Hugo and Netlify.
 

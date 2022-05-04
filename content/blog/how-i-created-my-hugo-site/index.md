@@ -5,7 +5,6 @@ date: 2022-05-04
 ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowTOC: true
-draft: false
 author: "Abby Moreland"
 summary: "I wanted to build a fully customizable website without starting from scratch, so I created this site using Hugo and Netlify."
 ---
