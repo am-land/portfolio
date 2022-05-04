@@ -31,6 +31,6 @@ Here's what I used to work on this project:
 
 
 ## Read more
-I wrote a detailed guide on the process: [How I Created My Hugo Site]({{< ref "how-i-created-my-hugo-site.md" >}}). This guide is a step-by-step tutorial for beginners, but it also > gives you insight into how I figured things out and made decisions. 
+I wrote a detailed guide on the process: [How I Created My Hugo Site]({{< ref "how-i-created-my-hugo-site.md" >}}). This guide is a step-by-step tutorial for beginners, but it also gives you insight into how I figured things out and made decisions. 
 
 > Be sure to check out [What I did to facilitate learning]({{< ref "how-i-created-my-hugo-site.md#what-i-did-to-facilitate-learning" >}}).
