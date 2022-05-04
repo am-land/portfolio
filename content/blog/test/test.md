@@ -1,7 +1,7 @@
 ---
 ShowBreadCrumbs: true
 title: "Test"
-
+draft: true
 ---
 
 {{< myshortcode green >}}
