@@ -1,3 +1,2 @@
-- Add author to Documentation request form blog post.
-- Add summary to AsciiDoc blog post.
 - Add About section.
+- Remove pages from search (/contact, /archives, /success, /404).
