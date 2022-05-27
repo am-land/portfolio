@@ -11,7 +11,7 @@ I wanted a website to host my portfolio and blog. To start, I created a [list of
 
 > **Site details**
 > - Static site generator: [Hugo](https://gohugo.io/), written in Go
-> - Hugo theme: [PaperMod](https://github.com/adityatelange/hugo-PaperMod)
+> - Hugo theme: [PaperMod](https://github.com/adityatelange/hugo-PaperMod) by @[adityatelange](https://github.com/adityatelange)
 > - Hosted on: [GitHub](https://github.com/am-land/portfolio)
 > - Deployed via: [Netlify](https://www.netlify.com/)
 
