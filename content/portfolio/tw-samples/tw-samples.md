@@ -1,7 +1,6 @@
 ---
 ShowBreadCrumbs: true
 title: "Technical Writing Samples"
-date: 2023-02-17T14:18:39-07:00
 ShowReadingTime: false
 draft: false
 ShowToc: false
