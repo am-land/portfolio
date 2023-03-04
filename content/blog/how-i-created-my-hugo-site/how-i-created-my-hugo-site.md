@@ -48,7 +48,7 @@ Though there are SSGs for many programming languages, Jekyll is one of the origi
 Windows machine using [Jekyll’s guide](https://jekyllrb.com/docs/installation/windows/). You can also run Jekyll on the Windows 
 Subsystem for Linux.
 
-Hugo is another popular SSG, known for its speed and simplicity. It’s written in Go, a compiled programming language originally developed by Google. Hugo also has hundreds of themes, many of them ports from Jekyll themes. Hugo uses its own web server to build and serve the site, so there are no dependencies to get started. Once your site is ready for production, you may want to [publish to a more powerful server](https://openwritings.net/pg/hugo/hugo-deploy-public-folder-local-apache-server) such as [Apache](https://www.apache.org/), though you can keep using the built-in server.
+Hugo is another popular SSG, known for its speed and simplicity. It’s written in Go, a compiled programming language originally developed at Google. Hugo also has hundreds of themes, many of them ports from Jekyll themes. Hugo uses its own web server to build and serve the site, so there are no dependencies to get started. Once your site is ready for production, you may want to [publish to a more powerful server](https://openwritings.net/pg/hugo/hugo-deploy-public-folder-local-apache-server) such as [Apache](https://www.apache.org/), though you can keep using the built-in server.
 
 As a documentarian (and an SSG noob), I chose the site generator that came with clearer, more robust documentation. Plus, the Hugo community has grown substantially over the past few years, so I was able to easily troubleshoot issues.
 
