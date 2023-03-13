@@ -1,2 +1,5 @@
 # Local Netlify folder
 .netlify
+
+# Directory that Netflify doesn't need
+public
