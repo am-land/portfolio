@@ -1,6 +1,5 @@
 ---
 ShowBreadCrumbs: true
-summary: A feature guide I wrote for Ephesoft's on-premise product, Transact. This guide rolled out with a new version of the software and introduced the a new plugin.
 title: "Sample 2: Feature Guide"
 date: 
 ShowReadingTime: true
