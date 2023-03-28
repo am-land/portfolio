@@ -30,6 +30,7 @@ Here’s a highlight list of documentation I’ve written for Ephesoft’s two p
 **Tutorials/Feature Documentation**
 - [Universal Document Automation](https://ephesoft.com/docs/products/transact/features-and-functions/semantik-ai-engine/universal-document-automation/)
 - [Document Design Accelerator](https://ephesoft.com/docs/products/transact/features-and-functions/semantik-ai-engine/document-design-accelerator/)
+- [Cloud OCR Plugin](https://ephesoft.com/docs/products/transact/features-and-functions/administrator/moduleplugin-configuration/page-process-module/cloud-ocr-plugin/)
 
 **Reference**
 - [Platform Configurations and Third-Party Integrations](https://ephesoft.com/docs/products/transact/install-and-upgrade/system-requirements/platform-configurations-and-third-party-integrations/#ephesoft-transact-prior-to-4-5-0-0)
