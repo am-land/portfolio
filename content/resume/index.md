@@ -3,4 +3,4 @@ title: "Resume"
 layout: "single"
 ---
 
-{{< content-strip-left "/resume" "resume.md" >}}
+{{< content-strip-left "/resume" "resume.html" >}}
