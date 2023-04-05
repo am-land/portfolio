@@ -242,7 +242,7 @@ When you’re ready to publish your site, the first step is to create a remote r
 I used [Netlify’s guide](https://www.netlify.com/blog/2016/09/29/a-step-by-step-guide-deploying-on-netlify/) to deploy my site. This guide uses GitHub as the repo source.
 
 Here’s an overview of what you need to do:
-1. Once logged in to Netlify, click a button to add a new site from Git.
+1. Once logged in to Netlify, click a button to add a new site from GitHub.
 2. Give Netlify access to your GitHub repo.
 3. Select the repo you created for your site.
 4. Configure a few settings for your site.
