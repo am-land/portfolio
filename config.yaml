@@ -21,8 +21,8 @@ params:
             url: "/about"
           - name: Portfolio
             url: "/portfolio"
-          - name: Resume
-            url: "/resume"
+          - name: Blog
+            url: "/blog"
     defaultTheme: light
     disableThemeToggle: true
 
@@ -75,11 +75,11 @@ menu:
     pre: <i class='fa fa-heart'></i>
     url: /portfolio
     weight: -110
-  - identifier: resume
-    name: Resume
-    pre: <i class='fa fa-heart'></i>
-    url: /resume
-    weight: -105    
+#  - identifier: resume
+#    name: Resume
+#    pre: <i class='fa fa-heart'></i>
+#    url: /resume
+#    weight: -105    
   - identifier: blog
     name: Blog
     pre: <i class='fa fa-heart'></i>
