@@ -7,6 +7,7 @@ summary: I took some time between jobs&mdash;my first ever "break." Here's what 
 tags: ["career", "hobbies", "personal"]
 categories:
 draft: false
+author: Abby Moreland
 ---
 
 {{< content-strip-left "/blog/career-break" "career-break" >}}
