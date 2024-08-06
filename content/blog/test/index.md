@@ -7,8 +7,13 @@ summary: Test summary.
 ShowReadingTime: true
 ShowBreadCrumbs: true
 weight: 10
-draft: true
+draft: false
 ---
-Sumary: Here's a summary of this post.
 
-{{< content-strip-left "/blog/test" "test" >}}
+test
+
+
+{{% columns %}}
+
+
+
