@@ -106,14 +106,15 @@ menu:
 security:
   enableInlineShortcodes: false
   exec:
-    allow:
-    - ^dart-sass-embedded$
-    - ^go$
-    - ^npx$
-    - ^postcss$
-    - ^asciidoctor$
     osEnv:
-    - (?i)^(PATH|PATHEXT|APPDATA|TMP|TEMP|TERM)$
+      - (?i)^(PATH|PATHEXT|APPDATA|TMP|TEMP|TERM|GEM_PATH)$
+    allow:
+      - ^dart-sass-embedded$
+      - ^go$
+      - ^npx$
+      - ^postcss$
+      - ^asciidoctor$
+
   funcs:
     getenv:
     - ^HUGO_
