@@ -8,6 +8,9 @@ author:
   name: "Abby Moreland"
 
 params:
+    ShowCodeCopyButtons: true
+    ShowPostNavLinks: true
+    
     profileMode: 
         enabled: true
         title: "Abby Moreland" # optional default will be site title
@@ -23,8 +26,11 @@ params:
             url: "/portfolio"
  #        - name: Resume
  #          url: "/resume"
+          - name: Blog
+            url: "/blog"
     defaultTheme: light
     disableThemeToggle: true
+  
 
     socialIcons: # optional
           - name: "linkedin"
@@ -102,14 +108,15 @@ menu:
 security:
   enableInlineShortcodes: false
   exec:
-    allow:
-    - ^dart-sass-embedded$
-    - ^go$
-    - ^npx$
-    - ^postcss$
-    - ^asciidoctor$
     osEnv:
-    - (?i)^(PATH|PATHEXT|APPDATA|TMP|TEMP|TERM)$
+      - (?i)^(PATH|PATHEXT|APPDATA|TMP|TEMP|TERM|GEM_PATH)$
+    allow:
+      - ^dart-sass-embedded$
+      - ^go$
+      - ^npx$
+      - ^postcss$
+      - ^asciidoctor$
+
   funcs:
     getenv:
     - ^HUGO_

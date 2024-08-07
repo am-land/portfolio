@@ -5,3 +5,16 @@
 public
 content/blog/career-break/career-break.md
 content/blog/career-break/index.md
+
+public/about/index.html
+public/archives/index.html
+public/blog/index.html
+public/blog/test/index.html
+public/categories/index.html
+public/categories/test/index.html
+public/portfolio/index.html
+public/search/index.html
+public/tags/index.html
+public/tags/tag1/index.html
+public/tags/tag2/index.html
+public/tags/tag3/index.html
