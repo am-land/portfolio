@@ -7,7 +7,7 @@ summary: Test summary.
 ShowReadingTime: true
 ShowBreadCrumbs: true
 weight: 10
-draft: false
+draft: true
 ---
 
 test
