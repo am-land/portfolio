@@ -24,6 +24,8 @@ params:
             url: "/about"
           - name: Portfolio
             url: "/portfolio"
+ #        - name: Resume
+ #          url: "/resume"
           - name: Blog
             url: "/blog"
     defaultTheme: light

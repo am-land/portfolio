@@ -3,6 +3,9 @@
 
 # Directory that Netflify doesn't need
 public
+content/blog/career-break/career-break.md
+content/blog/career-break/index.md
+
 public/about/index.html
 public/archives/index.html
 public/blog/index.html

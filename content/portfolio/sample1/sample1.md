@@ -14,7 +14,7 @@ layout: 'portfolio'
 
 **Project:** Document how to review the data Ephesoft's product Semantik Invoice extracted from a user’s unique invoices.
 
-**Context:** When I joined the company, Semantik was a new product with sparse documentation.  I collaborated with the product owner to determine which features were used the most, then used that information to prioritize what to document.
+**Context:** At the time I was brought in, Semantik was a new product with sparse documentation.  I collaborated with the product owner to determine which features were used the most, then used that information to prioritize what to document.
 
 Semantik Invoice’s documentation is conversational and casual. The primary audiences are end users and administrators.
 

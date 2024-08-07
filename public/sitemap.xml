@@ -2,69 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.abbymoreland.com/portfolio/sample1/</loc>
-  </url><url>
-    <loc>https://www.abbymoreland.com/portfolio/sample2/</loc>
-  </url><url>
-    <loc>https://www.abbymoreland.com/portfolio/sample3/</loc>
-  </url><url>
-    <loc>https://www.abbymoreland.com/portfolio/ephesoft-docs/</loc>
-  </url><url>
-    <loc>https://www.abbymoreland.com/portfolio/the-site-youre-on-right-now/</loc>
-  </url><url>
     <loc>https://www.abbymoreland.com/blog/test/</loc>
     <lastmod>2022-03-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.abbymoreland.com/</loc>
-    <lastmod>2023-08-02T00:00:00+00:00</lastmod>
+    <lastmod>2022-03-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.abbymoreland.com/blog/</loc>
-    <lastmod>2023-08-02T00:00:00+00:00</lastmod>
+    <lastmod>2022-03-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.abbymoreland.com/categories/</loc>
-    <lastmod>2023-08-02T00:00:00+00:00</lastmod>
+    <lastmod>2022-03-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.abbymoreland.com/categories/documentation-set/</loc>
-    <lastmod>2023-08-02T00:00:00+00:00</lastmod>
+    <loc>https://www.abbymoreland.com/tags/configuration/</loc>
+    <lastmod>2022-03-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.abbymoreland.com/blog/content-topics-plan/</loc>
-    <lastmod>2023-08-02T00:00:00+00:00</lastmod>
+    <loc>https://www.abbymoreland.com/blog/configuration-guide/</loc>
+    <lastmod>2022-03-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.abbymoreland.com/categories/process/</loc>
-    <lastmod>2023-08-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.abbymoreland.com/categories/checklist/</loc>
-    <lastmod>2023-03-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.abbymoreland.com/categories/doc-release/</loc>
-    <lastmod>2023-03-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.abbymoreland.com/blog/use-checklists-during-documentation-releases/</loc>
-    <lastmod>2023-03-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.abbymoreland.com/categories/asciidoc/</loc>
-    <lastmod>2022-05-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.abbymoreland.com/blog/asciidoc-on-netlify/</loc>
-    <lastmod>2022-05-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.abbymoreland.com/categories/how-to/</loc>
-    <lastmod>2022-05-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.abbymoreland.com/categories/hugo/</loc>
-    <lastmod>2022-05-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.abbymoreland.com/categories/netlify/</loc>
-    <lastmod>2022-05-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.abbymoreland.com/blog/documentation-request-form/</loc>
-    <lastmod>2022-05-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.abbymoreland.com/blog/how-i-created-my-hugo-site/</loc>
-    <lastmod>2022-05-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.abbymoreland.com/categories/ssg/</loc>
-    <lastmod>2022-05-04T00:00:00+00:00</lastmod>
+    <loc>https://www.abbymoreland.com/categories/guide/</loc>
+    <lastmod>2022-03-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.abbymoreland.com/tags/tag1/</loc>
     <lastmod>2022-03-07T00:00:00+00:00</lastmod>
@@ -81,22 +38,26 @@
     <loc>https://www.abbymoreland.com/categories/test/</loc>
     <lastmod>2022-03-07T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://www.abbymoreland.com/tags/installation/</loc>
+    <lastmod>2021-01-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.abbymoreland.com/blog/installation-guide/</loc>
+    <lastmod>2021-01-15T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://www.abbymoreland.com/about/</loc>
   </url><url>
     <loc>https://www.abbymoreland.com/archives/</loc>
   </url><url>
     <loc>https://www.abbymoreland.com/contact/</loc>
   </url><url>
-    <loc>https://www.abbymoreland.com/success/</loc>
-  </url><url>
     <loc>https://www.abbymoreland.com/portfolio/</loc>
   </url><url>
-    <loc>https://www.abbymoreland.com/resume/</loc>
+    <loc>https://www.abbymoreland.com/portfolio/portfolio1/</loc>
   </url><url>
-    <loc>https://www.abbymoreland.com/rss/</loc>
+    <loc>https://www.abbymoreland.com/portfolio/portfolio2/</loc>
+  </url><url>
+    <loc>https://www.abbymoreland.com/portfolio/portfolio3/</loc>
   </url><url>
     <loc>https://www.abbymoreland.com/search/</loc>
-  </url><url>
-    <loc>https://www.abbymoreland.com/portfolio/samples/</loc>
   </url>
 </urlset>

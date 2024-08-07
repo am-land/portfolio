@@ -4,8 +4,6 @@ ShowReadingTime: true
 ShowBreadCrumbs: true
 tags: ["SSG", "Hugo", "how-to"]
 ---
-{{< figure src="ssg-graphic.png" alt="SSG technology" align="center">}}
-
 > Summary: I wanted to build a fully customizable website without starting from scratch, so I created this site using Hugo and Netlify.
 
 Here's how I created my site using a static site generator to host my blog and portfolio.

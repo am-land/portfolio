@@ -1,2 +1,2 @@
 # portfolio
-My professional portfolio and technical writing blog.
+My portfolio and technical writing blog.

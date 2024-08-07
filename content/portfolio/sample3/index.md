@@ -1,7 +1,7 @@
 ---
 ShowBreadCrumbs: true
 summary: A knowledge base article I wrote so sysadmins could resolve an issue when upgrading Ephesoft's product Transact.
-title: "Knowledge base article: Transact Upgrade Stops When Upgrading to 2020.1.03 or Above"
+title: "Sample 3: Knowledge Base Article"
 date: 
 ShowReadingTime: false
 draft: false
@@ -11,4 +11,4 @@ layout: 'portfolio'
 weight: 3
 ---
 
-{{< content-strip-left "/portfolio/kb-article" "kb-article" >}}
+{{< content-strip-left "/portfolio/sample3" "sample3" >}}

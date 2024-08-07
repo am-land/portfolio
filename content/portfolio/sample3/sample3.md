@@ -1,6 +1,6 @@
 ---
 ShowBreadCrumbs: true
-title: "Knowledge Base Article"
+title: "Sample 3 Knowledge Base Article"
 date: 
 ShowReadingTime: true
 draft: false

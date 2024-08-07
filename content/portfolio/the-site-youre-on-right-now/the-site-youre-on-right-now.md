@@ -1,11 +1,10 @@
 ---
-title: "Building a website using Hugo, GitHub, and Netlify"
+title: "The Site You're on Right Now"
 
 
 ---
-{{< figure src="ssg-graphic.png" alt="SSG technology" align="center">}}
 
-I created this site using the static site generator Hugo. I host it on GitHub, publish in a docs-as-code framework via Git using VS Code, and deploy it via Netlify.  
+I created this site using the static site generator Hugo. 
 
 ## Context
 I wanted a website to host my portfolio and blog. To start, I created a [list of requirements]({{< ref "how-i-created-my-hugo-site.md#my-site-requirements" >}}) for my site so I could make an informed decision on how to create the site. Based on those requirements, I decided to build a site via a static site generator (SSG). Between [Jekyll and Hugo]({{< ref "how-i-created-my-hugo-site.md#jekyll-vs-hugo" >}}), I chose Hugo.
@@ -32,6 +31,6 @@ Here's what I used to work on this project:
 
 
 ## Read more
-> I wrote a detailed guide on the process: [How I Created My Hugo Site]({{< ref "how-i-created-my-hugo-site.md" >}}). 
+I wrote a detailed guide on the process: [How I Created My Hugo Site]({{< ref "how-i-created-my-hugo-site.md" >}}). This guide is a step-by-step tutorial for beginners, but it also gives you insight into how I figured things out and made decisions. 
 
-This guide is a step-by-step tutorial for beginners, but it also gives you insight into how I figured things out and made decisions. Be sure to check out [What I did to facilitate learning]({{< ref "how-i-created-my-hugo-site.md#what-i-did-to-facilitate-learning" >}}).
+> Be sure to check out [What I did to facilitate learning]({{< ref "how-i-created-my-hugo-site.md#what-i-did-to-facilitate-learning" >}}).
