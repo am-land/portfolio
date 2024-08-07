@@ -6,7 +6,7 @@ tags: ["tag1", "tag2", "tag3"]
 summary: Test summary.
 ShowReadingTime: true
 ShowBreadCrumbs: true
-weight: 10
+weight: 9
 draft: true
 ---
 Sumary: Here's a summary of this post.
