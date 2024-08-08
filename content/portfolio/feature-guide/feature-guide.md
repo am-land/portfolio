@@ -1,6 +1,6 @@
 ---
 ShowBreadCrumbs: true
-title: "Sample 2: Feature Guide"
+title: "Feature guide"
 date: 
 ShowReadingTime: true
 draft: false

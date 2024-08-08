@@ -1,5 +1,5 @@
 ---
-title: "All Ephesoft Documentation"
+title: "All Ephesoft documentation"
 description: "A highlight list of my documentation contributions to Ephesoft."
 date: '2022-06-09'
 layout: 'portfolio'
