@@ -1,5 +1,5 @@
 ---
-title: "All Ephesoft Documentation"
+title: "All Ephesoft documentation"
 summary: "A highlight list of my documentation contributions to Ephesoft, an IDP startup."
 draft: false
 showTOC: true
