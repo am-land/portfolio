@@ -6,10 +6,7 @@ ShowBreadCrumbs: true
 summary: 
 tags:
 categories:
-draft: false
+draft: true
 ---
-
-
-{{< figure src="ux-writing-intro-books.png" alt="UX writing books" align="center">}}
 
 ![UX writing books](/blog/ux-writing/ux-writing-intro-books.png "caption")
