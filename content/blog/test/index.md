@@ -9,6 +9,11 @@ ShowBreadCrumbs: true
 weight: 9
 draft: true
 ---
-Sumary: Here's a summary of this post.
 
-{{< content-strip-left "/blog/test" "test" >}}
+test
+
+
+{{% columns %}}
+
+
+
