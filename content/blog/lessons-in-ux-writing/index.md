@@ -6,7 +6,7 @@ ShowBreadCrumbs: true
 summary: "As a lone technical writer, I tend to wear many content hats. This quarter, I was tasked with a big project: writing the UX copy for a new data product that our delivery team is developing."
 tags: ["UX writing","process"]
 categories: 
-draft: true
+draft: false
 ---
 
 
