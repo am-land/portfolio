@@ -13,12 +13,12 @@ params:
     
     profileMode: 
         enabled: true
-        title: "Abby Moreland" # optional default will be site title
-        subtitle: "Technical writer, software documentation"
+        title: "Hi, I'm Abby---a technical writer and docs enthusiast based in the PNW, US." # optional default will be site title
+        subtitle: "I write technical docs you actually want to read. I have a BA in Technical Communication and I've been writing software docs for 5 years."
         imageUrl: "img/am.png" # optional
         imageTitle: "am logo" # optional
-        imageWidth: 200 # custom size
-        imageHeight: 200 # custom size  
+        imageWidth: 150 # custom size
+        imageHeight: 150 # custom size  
         buttons:
           - name: About
             url: "/about"
@@ -91,6 +91,11 @@ menu:
     pre: <i class='fa fa-heart'></i>
     url: /blog
     weight: -100
+  - identifier: about
+    name: About
+    pre: <i class='fa fa-heart'></i>
+    url: /about
+    weight: -95
   - identifier: categories
     name: Categories
     pre: <i class='fa fa-heart'></i>

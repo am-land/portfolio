@@ -4,57 +4,42 @@ url: "/about/"
 type: "page"
 draft: false
 ---
-I'm a technical writer in the software industry. I'm passionate about good [user-centered documentation](https://idratherbewriting.com/category-user-centered-documentation/).
+**I like writing about technology.** My first step when writing about tech is to understand the topic. *How does this work? Why does it work that way? Who is my audience? Why is this helpful to them?* Then, I write so my reader understands. That's the challenge that I face as a tech writer and it's one that keeps me constantly learning.
+
+Growing up in the age of the digital revolution, I've always welcomed tech as a way of life. It's not something to be afraid of or shy away from---it's a set of evolving, useful tools that you can spend your whole life learning about. I believe this mindset is what makes me an effective technical writer. I like to gain a deep understanding so I can communicate well.
+
+- Follow me on GitHub [@am-land](https://github.com/am-land).
+- Connect with me on [LinkedIn](https://www.linkedin.com/in/abby-moreland/).
+
+I'm endlessly curious about good documentation strategy, docs-as-code architecture, the [Diátaxis framework](https://diataxis.fr/), user analytics, user-centered docs, and tech stacks that improve doc workflows.
+
+-----------------------------------------------------
+### Site build
+> This website is built with [Hugo](https://gohugo.io/), hosted on [GitHub](https://github.com/am-land/portfolio), and deployed via [Netlify](https://www.netlify.com/). I wrote a tutorial on [how to build your own site](/blog/how-i-created-my-hugo-site/) using these platforms. 
 
 -----------------------------------------------------
 
-### I like to work on:
-- How-to guides and tutorials
-- Information architecture
-- Style guides and templates
-- Writing in markup languages like Markdown and AsciiDoc
+### Documentation process
+This is a version of a documentation process that I've brought with me through my career:
 
------------------------------------------------------
+1. Review pull requests, design documents, internal documentation, and any initial drafts. Test the feature to understand how it works and how it may interact with other systems.
+2. Research the topic to define the scope and determine what doc type works best. Develop a table of contents or, if I'm ready, a working first draft.
+3. Set up a meeting with the lead engineer and product owner to review my notes and ask for clarification on my understanding.
+4. Write the initial draft. Call out knowledge gaps and any outstanding questions.
+5. Request a technical review from the lead engineer or set up a meeting to synchronously review.
+6. Rewrite and edit the draft, incorporating technical feedback. Collaborate with SMEs to ensure content is accurate.
+7. Edit the draft for structure, grammar, and style according to the in-house style guide.
+8. Send the draft for peer review or wait a day and technical edit myself. Incorporate editorial feedback.
+9. Format the content and publish.
 
-### I'm interested in:
-- [Docs-as-code](https://www.writethedocs.org/guide/docs-as-code/)
-- API documentation
-- [Topic-based authoring](https://everypageispageone.com/the-book/)
-- [reStructuredText (reST)](https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html)
+Though I'm always ready to change my method to fit the environment, I've found that tech writing is a career where you have to come prepared. If I don't have much direction, this is how I would get started on a document.
 
------------------------------------------------------
-
-### I use these methodologies and guidelines:
-
-- [Diátaxis framework](https://diataxis.fr/)
-- [GitLab's Documentation Guidelines](https://docs.gitlab.com/ee/development/documentation/)
-- [Google's developer documentation style guide](https://developers.google.com/style/)
-- [GOV.UK Design System's UI components](https://design-system.service.gov.uk/components/)
-- [Testing your instructions](https://idratherbewriting.com/2015/07/07/testing-your-instructions/)
-- [Write the Docs Documentation Principles](https://www.writethedocs.org/guide/writing/docs-principles/)
-
------------------------------------------------------
-### My career path:
-- **August 2015 to graduation** - I studied as an English, Tech Comm major full time while working my way up through various part-time student positions: 
-    - IT Help Desk Specialist 
-    - Technical Support for my university's Degree Tracker tool
-    - Production Support in Web Development
-    - Software Review Analyst in Project Management
-- **December 2019** - I was eager to gain more experience, so before I graduated, I got a job as a Technical Writer for my state's Transportation Department. I took evening classes so I could work full time.
-- **May 2020** - I graduated with a BA in English, Writing, Rhetoric, and Technical Communication, and a certificate in Technical Communication. Spring 2020 was a difficult time to graduate; I was grateful I already had a job!
-- **June 2021 to present** - I realized I wanted to be a technical writer in software, so I started at a California-based startup that develops AI software for structuring data.
-
-> **Why tech writing?**  
-> I've always had an interest in both technology and communication. I created websites for my friends as a kid and English was my favorite class. When I realized as a college freshman that I could pursue both interests, I thought it was too good to be true! Technical writing is the perfect career for me and every day I'm excited to learn new technology (and document it!).
-
------------------------------------------------------
-
-### When I'm not working, I like:
-
-- **Knitting sweaters**. I also like writing patterns and recently began learning how to [grade knitwear](https://www.jillwolcottknits.com/techniques/grading/) (yay spreadsheets!).
-- **Cooking** new recipes. I recently made some delicious [Chicken Katsu](https://www.seriouseats.com/tonkatsu-chicken-pork-katsu-japanese-breaded-cutlets-recipe).
-- **Gardening** with my partner. We're growing our first garden this year with several varieties of tomatoes, onions, peppers, peas, and some catnip for our two adorable cats.
-- **Gaming**. [Celeste](http://www.celestegame.com/) and [Spiritfarer](https://thunderlotusgames.com/spiritfarer/) are two of my favorites. I also recently became absorbed in the trading card game Magic: The Gathering. 
+### What makes this process good?
+- Start with learning the decisions that went into the development and design.
+- Work with the developers who built the part of the product I'm documenting.
+- Test the feature regularly---my goal is to become a user myself.
+- Involve SMEs such as Engineering, Product, QA, Design, User Research, Content Strategy, and other Technical Writers to gain a wholistic understanding.
+- Draft iteratively to edit, improve, and refine the content. Continually test my instructions to ensure accuracy and to add or remove info.
 
 -----------------------------------------------------
 
