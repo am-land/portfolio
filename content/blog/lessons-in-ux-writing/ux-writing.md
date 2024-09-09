@@ -5,7 +5,7 @@ ShowBreadCrumbs: true
 summary: 
 tags:
 categories:
-draft: true
+draft: false
 ---
 As a lone technical writer, I tend to wear many content hats. This quarter, I was tasked with a big project: writing the UX copy for a new data product that our delivery team is developing. While it's not unheard of for tech writers to be asked to do UX writing, I knew enough about the field to know there was a lot I didn't know. 
 
