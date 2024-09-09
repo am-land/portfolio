@@ -1,6 +1,5 @@
 ---
 title: "How I created my Hugo site"
-author: "Abby Moreland"
 date: 2022-05-04
 ShowReadingTime: true
 ShowBreadCrumbs: true
