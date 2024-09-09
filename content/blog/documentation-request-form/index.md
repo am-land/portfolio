@@ -1,7 +1,6 @@
 ---
 title: "My documentation request form for software features"
 date: 2022-05-11
-author: Abby Moreland
 ShowReadingTime: true
 ShowBreadCrumbs: true
 summary: The form I created to gather information about documentation requests.
