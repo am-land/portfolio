@@ -8,7 +8,7 @@ draft: false
 ShowToc: false
 TocOpen: true
 layout: 'portfolio'
-weight: 3
+weight: 6
 ---
 
 {{< content-strip-left "/portfolio/kb-article" "kb-article" >}}

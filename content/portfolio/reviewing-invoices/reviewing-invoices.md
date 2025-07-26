@@ -8,8 +8,7 @@ TocOpen: false
 layout: 'portfolio'
 ---
 
-[![Reviewing Invoices Screenshot](reviewinginvoices.PNG)](https://docs.google.com/document/d/1GSSZJzFmVpVFdEEEMV0i1Qrmqu0M7z1dOLSmhH0BlzU/edit?usp=share_link)
-
+[![Reviewing Invoices Screenshot](reviewinginvoices.PNG)](https://drive.google.com/file/d/19SCUNggu-woLs1265ijCOCLT2O0EZ-0G/view?usp=sharing)
 
 
 **Project:** Document how to review the data Ephesoft's product Semantik Invoice extracted from a user’s unique invoices.
@@ -20,4 +19,4 @@ Semantik Invoice’s documentation is conversational and casual. The primary aud
 
 **Achievements:** Researched accounting practices to understand why certain index fields existed and was the first at the company to internally document how those fields were used. Provided UX feedback to the lead UI developer and product owner.
 
-**Link:** [Reviewing Invoices (Google Doc)](https://docs.google.com/document/d/1GSSZJzFmVpVFdEEEMV0i1Qrmqu0M7z1dOLSmhH0BlzU/edit?usp=sharing)
+**Link:** [Reviewing Invoices (PDF)](https://drive.google.com/file/d/19SCUNggu-woLs1265ijCOCLT2O0EZ-0G/view?usp=sharing)

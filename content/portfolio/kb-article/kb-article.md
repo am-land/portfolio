@@ -10,7 +10,7 @@ layout: 'portfolio'
 ---
 
 
-[![Knowledge Base Article Screenshot](kb.PNG)](https://docs.google.com/document/d/1tcVkmJIss9_0IGNEVEEpxNZm9ZKEGCOyrxuY-qPTxjg/edit?usp=sharing)
+[![Knowledge Base Article Screenshot](kb.PNG)](https://drive.google.com/file/d/1pKiV4660qe2C7si0VrdC7sx0PQju458M/view?usp=drive_link)
 
 **Project:** Write a knowledge base article on how to resolve an issue that occurs when upgrading Transact with a specific setup.
 
@@ -20,4 +20,4 @@ A limitation is that I was unable to grab my own screenshots due to not having a
 
 **Achievements:** When I received this request, there wasn’t much information on what type of setup caused the issue. I studied the customer ticket and worked closely with an engineer to understand how to document this issue so affected users could find the article on their own, instead of waiting several days for Support to respond.
 
-**Link:** [Transact Upgrade Stops When Upgrading to 2020.1.03 or Above (Google Doc)](https://docs.google.com/document/d/1tcVkmJIss9_0IGNEVEEpxNZm9ZKEGCOyrxuY-qPTxjg/edit?usp=sharing)
+**Link:** [Transact Upgrade Stops When Upgrading to 2020.1.03 or Above (PDF)](https://drive.google.com/file/d/1pKiV4660qe2C7si0VrdC7sx0PQju458M/view?usp=drive_link)
