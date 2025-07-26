@@ -14,7 +14,7 @@ params:
     profileMode: 
         enabled: true
         title: "Hi, I'm Abby---a technical writer and docs enthusiast based in the NW, US." # optional default will be site title
-        subtitle: "I have a BA in Technical Communication and I've been writing software docs for over 5 years."
+        subtitle: "I have a B.A. in English, Technical Communication and I've been writing software docs for over 5 years."
         imageUrl: "img/am.png" # optional
         imageTitle: "am logo" # optional
         imageWidth: 150 # custom size

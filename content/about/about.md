@@ -6,12 +6,12 @@ draft: false
 ---
 **I like writing about technology.** My first step when writing about tech is to understand the topic. *How does this work? Why does it work that way? Who is my audience? Why is this helpful to them?* Then, I write so my reader understands. That's the challenge that I face as a tech writer and it's one that keeps me constantly learning.
 
-Growing up in the age of the digital revolution, I've always welcomed tech as a way of life. It's not something to be afraid of or shy away from---it's a set of evolving, useful tools that you can spend your whole life learning about. I believe this mindset is what makes me an effective technical writer. I like to gain a deep understanding so I can communicate well.
+Growing up in the age of the digital revolution, I've always welcomed tech as a way of life. It's not something to be afraid of or shy away from---it's a set of evolving, useful tools that you can spend your whole life learning about. I believe this mindset is what makes me an effective technical writer. I like to gain a deep understanding so I can communicate well. And I never want to stop learning.
 
 - Follow me on GitHub [@am-land](https://github.com/am-land).
 - Connect with me on [LinkedIn](https://www.linkedin.com/in/abby-moreland/).
 
-I'm endlessly curious about good documentation strategy, docs-as-code architecture, the [Diátaxis framework](https://diataxis.fr/), user analytics, user-centered docs, and tech stacks that improve doc workflows.
+I'm endlessly curious about good documentation strategy, docs-as-code architecture, the [Diátaxis framework](https://diataxis.fr/), content migration, user analytics, user-centered docs, and tech stacks that improve doc workflows.
 
 -----------------------------------------------------
 ### Site build
@@ -35,9 +35,10 @@ This is a version of a documentation process that I've brought with me through m
 Though I'm always ready to change my method to fit the environment, I've found that tech writing is a career where you have to come prepared. If I don't have much direction, this is how I would get started on a document.
 
 ### What makes this process good?
+This process works well because I...
 - Start with learning the decisions that went into the development and design.
-- Work with the developers who built the part of the product I'm documenting.
-- Test the feature regularly---my goal is to become a user myself.
+- Collaborate with the developers who built the part of the product I'm documenting.
+- Test the feature regularly (my goal is to become a user myself).
 - Involve SMEs such as Engineering, Product, QA, Design, User Research, Content Strategy, and other Technical Writers to gain a wholistic understanding.
 - Draft iteratively to edit, improve, and refine the content. Continually test my instructions to ensure accuracy and to add or remove info.
 
