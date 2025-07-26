@@ -14,7 +14,7 @@ layout: 'portfolio'
 
 **Project:** Create a detailed feature guide to introduce and document a new plugin.
 
-**Context:** Ephesoft developed a collection of new features that fundamentally altered the way administrators use our product. One of those features was a plugin called Universal Document Automation. This plugin functioned similarly to existing components, but the key difference was that users could get started with little-to-no configuration.
+**Context:** Ephesoft developed a collection of new features that fundamentally altered the way administrators use the product. One of those features was a plugin called Universal Document Automation. This plugin functioned similarly to existing components, but the key difference was that users could get started with little-to-no configuration.
 
 Transact’s documentation is formal. The primary audiences are developers and system administrators.
 
