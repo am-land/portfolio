@@ -14,10 +14,8 @@ layout: 'portfolio'
 
 **Project:** Create a detailed feature guide to introduce and document a new plugin.
 
-**Context:** Ephesoft developed a collection of new features that fundamentally altered the way administrators use our product. One of those features was a plugin called Universal Document Automation. This plugin functioned similarly to existing components, but the key difference was that users could get started with little-to-no configuration.
+**Context:** Ephesoft developed a collection of new features that fundamentally altered the way administrators use the product. One of those features was a plugin called Document Design Accelerator. This plugin simplified the batch class creation process by using AI to extract rules automatically. 
 
 Transact’s documentation is formal. The primary audiences are developers and system administrators.
-
-**Achievements:** Figured out how to use a new plugin while still in the early development stages, including multiple use cases. Condensed the writing cycle to fit the tight deadline.
 
 **Link:** [Document Design Accelerator (PDF)](https://drive.google.com/file/d/1GelYSA78gRoIwSMyEn0cLX4L-cis2Dn0/view?usp=sharing)
